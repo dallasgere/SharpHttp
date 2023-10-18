@@ -17,7 +17,8 @@ public class App
         // Create a TCP listener
         TcpListener listener = new TcpListener(IPAddress.Parse(serverHost), serverPort);
         listener.Start();
-        Console.WriteLine($"Listening on port: {serverPort}");
+        // Console.WriteLine($"Listening on port: {serverPort}");
+        Console.WriteLine($"Listening on: http://localhost:{serverPort}");
 
         while (true)
         {
@@ -40,7 +41,7 @@ public class App
             Console.WriteLine($"File Name: {path}");
 
             // Get contents of the file
-            path = "Views" + path;
+            path = "./Views" + path;
             // if (path == "/")
             // {
             //     path = "index.html";
@@ -54,10 +55,15 @@ public class App
 
             try
             {
+                File.SetAttributes(path, FileAttributes.Normal);
                 string content = File.ReadAllText(path);
                 response = "HTTP/1.0 200 OK\r\n\r\n" + content;
             }
             catch (FileNotFoundException)
+            {
+                response = "HTTP/1.0 404 NOT FOUND\r\n\r\nFile Not Found";
+            }
+            catch (UnauthorizedAccessException)
             {
                 response = "HTTP/1.0 404 NOT FOUND\r\n\r\nFile Not Found";
             }
