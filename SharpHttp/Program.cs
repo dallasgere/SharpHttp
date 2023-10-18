@@ -38,14 +38,15 @@ class SimpleHttpServer
             Console.WriteLine($"File Name: {path}");
 
             // Get contents of the file
-            if (path == "/")
-            {
-                path = "index.html";
-            }
-            else if (path == "/lorem")
-            {
-                path = "lorem.html";
-            }
+            path = "Views" + path;
+            // if (path == "/")
+            // {
+            //     path = "index.html";
+            // }
+            // else if (path == "/lorem")
+            // {
+            //     path = "lorem.html";
+            // }
 
             string response = string.Empty;
 

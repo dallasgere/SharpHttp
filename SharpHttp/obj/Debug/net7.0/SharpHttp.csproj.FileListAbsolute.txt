@@ -1,0 +1,14 @@
+/Users/dallasgere/dev/SharpHttp/SharpHttp/bin/Debug/net7.0/SharpHttp
+/Users/dallasgere/dev/SharpHttp/SharpHttp/bin/Debug/net7.0/SharpHttp.deps.json
+/Users/dallasgere/dev/SharpHttp/SharpHttp/bin/Debug/net7.0/SharpHttp.runtimeconfig.json
+/Users/dallasgere/dev/SharpHttp/SharpHttp/bin/Debug/net7.0/SharpHttp.dll
+/Users/dallasgere/dev/SharpHttp/SharpHttp/bin/Debug/net7.0/SharpHttp.pdb
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.AssemblyInfoInputs.cache
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.AssemblyInfo.cs
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.csproj.CoreCompileInputs.cache
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.dll
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/refint/SharpHttp.dll
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.pdb
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/SharpHttp.genruntimeconfig.cache
+/Users/dallasgere/dev/SharpHttp/SharpHttp/obj/Debug/net7.0/ref/SharpHttp.dll
